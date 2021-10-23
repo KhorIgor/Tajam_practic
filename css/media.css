@@ -1,0 +1,48 @@
+@media screen and (max-width: 320px) {
+	
+
+}
+@media screen and (max-width: 480px) {
+	
+}
+@media screen and (max-width: 600px) {
+	
+}
+@media screen and (max-width: 768px) {
+	
+}
+@media screen and (max-width: 980px) {
+	.header__navbar{
+		display: block;
+		position: absolute;
+		width: 100%;
+		background-color: #322a53;
+		z-index: 1;
+		top:0;
+		left: 0;
+		text-align: center;
+		
+	}
+	.header__navbar a {
+		display: block;
+		border-bottom: 1px solid #000; 
+	}
+	.header__navbar a + a{
+		margin: 0;
+	}
+	#menu{
+		display:inline-block;
+		
+	}
+}
+@media screen and (max-width: 1024px) {
+	
+}
+@media screen and (max-width: 1105px) {
+	
+}
+320 px — Мобильные устройства (портретная ориентация);
+480 px — Мобильные устройства (альбомная ориентация);
+600 px — Небольшие планшеты;
+768 px — Планшеты (портретная ориентация);
+1024
