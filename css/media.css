@@ -1,48 +1,123 @@
 @media screen and (max-width: 320px) {
-	
-
 }
 @media screen and (max-width: 480px) {
-	
+  .header__slider {
+    padding-bottom: 20px;
+  }
+  .clients__box .slick-track {
+    width: auto;
+  }
+}
+@media screen and (max-width: 580px) {
+  .works__photos.slick-slide {
+    grid-template-columns: 267px;
+  }
 }
 @media screen and (max-width: 600px) {
-	
+  .about__left {
+    display: none;
+  }
+  .about__right {
+    width: 100%;
+  }
+  .about__title {
+    text-align: center;
+  }
+  .about__text {
+    text-align: justify;
+  }
+  .about__btn {
+    display: block;
+    text-align: center;
+  }
+  .expertise__flex-top,
+  .expertise__flex-bottom {
+    display: block;
+  }
+  .footer__top {
+    display: block;
+  }
+}
+@media screen and (max-width: 640px) {
+  .footer__top,
+  .footer__bottom {
+    display: block;
+  }
+}
+@media screen and (max-width: 710px) {
+  .show {
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
-	
 }
 @media screen and (max-width: 980px) {
-	.header__navbar{
-		display: block;
-		position: absolute;
-		width: 100%;
-		background-color: #322a53;
-		z-index: 1;
-		top:0;
-		left: 0;
-		text-align: center;
-		
-	}
-	.header__navbar a {
-		display: block;
-		border-bottom: 1px solid #000; 
-	}
-	.header__navbar a + a{
-		margin: 0;
-	}
-	#menu{
-		display:inline-block;
-		
-	}
+  .header__navbar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #322a53;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+  .show {
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .header__navbar a {
+    display: block;
+    border-bottom: 1px solid #000;
+    line-height: 60px;
+  }
+  .header__navbar a + a {
+    margin: 0;
+  }
+  .team__items {
+  }
+  #menu {
+    display: block;
+  }
+  .contacts__inner {
+    display: block;
+  }
+  .clients__inner.slick-slide {
+    width: auto;
+  }
+  /* .clients__box .slick-track {
+    width: auto !important;
+  } */
+}
+@media screen and (min-width: 979px) {
+  .clients__box .slick-track {
+    width: auto !important;
+  }
+}
+@media screen and (width: 981px) {
+  .clients__box .slick-track {
+    width: auto !important;
+  }
+  .clients__inner {
+    width: 200px !important;
+  }
 }
 @media screen and (max-width: 1024px) {
-	
 }
 @media screen and (max-width: 1105px) {
-	
 }
+@media screen and (max-width: 1610px) {
+}
+/*
 320 px — Мобильные устройства (портретная ориентация);
 480 px — Мобильные устройства (альбомная ориентация);
 600 px — Небольшие планшеты;
 768 px — Планшеты (портретная ориентация);
 1024
+*/

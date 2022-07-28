@@ -1,0 +1,118 @@
+.header {
+  background-image: url(../img/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 670px;
+}
+.header__top {
+  padding-top: 12px;
+  position: relative;
+}
+/*.header__top::before{
+      content: '';
+      clear: both;
+      position: absolute;
+      bottom: 0;
+  }*/
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+}
+.header__navbar {
+}
+
+.header__navbar a {
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 50px;
+}
+.header__navbar a:hover {
+  color: #00e0d0;
+  /*box-shadow: 0 0 35px 0 rgba(0,224,204,.2);
+      background-color:rgba(0,224,204,.05);
+      border-radius: 20px;*/
+}
+#menu {
+  display: none;
+  font-size: 30px;
+  line-height: 60px;
+  padding: 0 20px;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate();
+  background-color: #544c75;
+}
+.header__navbar a + a {
+  margin-left: 25px;
+}
+
+.header__slider__item {
+  outline: none;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.header__slider__item-content {
+  max-width: 770px;
+  margin: 0 auto;
+}
+.header__title {
+  display: inline-block;
+  margin: 160px 0 50px 0;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 0.1px;
+  color: #fff;
+  line-height: 35px;
+  position: relative;
+}
+.header__title::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background-color: #00e0d0;
+  bottom: -20px;
+  right: calc(50% - 25px);
+  text-align: center;
+}
+.header__text {
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.header__btn {
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+.slick-dots {
+  text-align: center;
+  /*margin: 120px;*/
+}
+.slick-dots li {
+  display: inline-block;
+  background: #000;
+  background-color: transparent;
+}
+.slick-dots button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+.slick-dots li + li {
+  margin-left: 10px;
+}
+.slick-dots .slick-active button {
+  background-color: #00e0d0;
+}

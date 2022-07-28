@@ -1,0 +1,25 @@
+.about__inner {
+  display: flex;
+  /*justify-content: center;*/
+  padding: 70px 0;
+}
+.about__left {
+  width: 50%;
+  text-align: center;
+}
+.about__right {
+  width: 50%;
+}
+.about__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color: #413d4b;
+}
+.about__text {
+  margin-top: 25px;
+}
+.about__btn {
+  margin-top: 26px;
+}

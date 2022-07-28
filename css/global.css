@@ -1,0 +1,119 @@
+html {
+  /*font-family: 'Playfair Display', serif;*/
+  font-family: "Roboto", sans-serif;
+  /*font-family: 'Hammersmith One', sans-serif;*/
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+textarea {
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+
+section {
+  position: relative;
+}
+
+input,
+select,
+button {
+  outline: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+  /*width: 100%;*/
+  padding: 0 20px;
+}
+.container-fluid {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.default__btn {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #00e0d0;
+  font-family: "Hammersmith One", sans-serif;
+  border: 1px solid #00e0d0;
+  padding: 10px 14px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.default__btn:hover {
+  box-shadow: 0 0 35px 0 rgba(0, 224, 204, 0.2);
+  background-color: rgba(0, 224, 204, 0.05);
+}
+.default__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 22px;
+
+  text-align: center;
+}
+.default__text {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+}
+.default__text::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background-color: #413d4b;
+  bottom: -20px;
+  left: calc(50% - 25px);
+}
