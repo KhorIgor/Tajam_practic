@@ -7,6 +7,12 @@
   .clients__box .slick-track {
     width: auto;
   }
+  .authors__prevArrow {
+    left: 50px;
+  }
+  .authors__nextArrow {
+    right: 50px;
+  }
 }
 @media screen and (max-width: 580px) {
   .works__photos.slick-slide {

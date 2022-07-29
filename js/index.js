@@ -1,7 +1,6 @@
 $(function () {
   $(".header__slider").slick({
     dots: true,
-    speed: 800,
     arrows: false,
   });
   $(".works__slider").slick({
@@ -43,9 +42,33 @@ $(function () {
           arrows: false,
         },
       },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+    ],
+  });
+  $(".authors__quote").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: ".authors__images",
+    initialSlide: 3,
+  });
+  $(".authors__images").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    prevArrow: '<div class="authors__prevArrow">&#8249;</div>',
+    nextArrow: '<div class="authors__nextArrow">&#8250;</div>',
+    asNavFor: ".authors__quote",
+    centerMode: true,
+    focusOnSelect: true,
+    centerPadding: "40px",
+    initialSlide: 3,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
     ],
   });
   document.querySelector(".our__works-drible");
